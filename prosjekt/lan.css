@@ -8,12 +8,18 @@ body { background-color: grey;
            margin-left: auto;
            margin-right: auto; }
 
-header { background-image: url(bilder/logo/gamezoneold.png);
-         text-align: center; 
-         line-height: 80px;
-         height: 230px;
+header { background-position-y: -60px;
+         background-color: #FFFFFF;
+         background-image: url(bilder/logo/gamezoneold.png);
+         background-size: 100% 150%;
+          background-repeat: no-repeat;
+         height: 300px;
          margin-left: 190px;
-         margin-right: 190px;}
+         margin-right: 190px;
+         overflow: hidden;
+         
+
+}
 
 
 nav { background-color: white;
@@ -75,7 +81,7 @@ aside { opacity: 0.3; }
          width: 190px;
          display: none; }
 
-main { background-color: #ffffff;
+main { background-color: #e6e6dc;
        margin-top: 0px;
        margin-left: 190px;
        margin-right: 190px;
