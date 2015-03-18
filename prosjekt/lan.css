@@ -1,27 +1,31 @@
 html { min-height: 100%; }
 
-body { background-color: white; }
+body { background-color: #434343; }
      
-.wrapper { width: 80%; min-width: 980px; max-width: 1400px;
+.wrapper { width: 80% ; min-width: 980px; max-width: 1200px;
            margin-left: auto;
-           margin-right: auto; }
+           margin-right: auto;
+         }
+
+#container {display: table;}
+
 
 header { background-position-y: -30px;
-         background-color: #FFFFFF;
+         //background-color: #434343;
          background-image: url(bilder/logo/gamezoneold.png);
          background-size: 100% 160%;
          background-position: 100% 50%; 
          background-repeat: no-repeat;
          height: 220px;
-         margin-left: 190px;
-         margin-right: 190px;
-         overflow: hidden;
-         }
+         margin-left: 95px;
+         margin-right: 95px;
+         overflow: hidden;}
 
 
-nav { background-color: white;
-      margin-left: 190px;
-      margin-right: 190px; }
+nav { background-color: #434343;
+      margin-left: 94px;
+      margin-right: 94px;
+}
 
 nav ul { width: 100%;
          font-family: Arial, Verdana;
@@ -42,9 +46,9 @@ nav ul li a { text-align: center;
               font-size: 1.2em;
               display: block;
               text-decoration: none;
-              color: #801a00;
+              color: #919191;
               padding: 5px 15px 5px 15px;
-              background: #ffffff;
+              background: #434343;
               margin-left: 0;
               white-space: nowrap; }
 
@@ -66,35 +70,60 @@ nav li:hover li a:hover { background: #878787; }
 
 aside { }
 
-#left { background-color: #7094b8;
-        float: left;
-        width: 190px;
-        min-height: 500px;
-        display: none; }
+#left { float: left;
+        background-image: url(bilder/banners/SplatterLeftNr2.png); 
+        min-height: 1000px;
+        width: 95px;
+        margin-top: -18px;
+        }
+        
 
-#right { background-color: #7094b8;
-         float: right;
-         min-height: 500px;
-         width: 190px;
-         display: none; }
+#right { float: right;
+         background-image: url(bilder/banners/SplatterRightNr2.png);
+         min-height: 1000px;
+         width: 95px;
+         }
 
 main { background-image: linear-gradient(#ffffff, #969696);
-       //background-color: #969696;
-       margin-top: 0px;
-       margin-left: 190px;
-       margin-right: 190px;
-       min-height: 500px; }
+       margin-top: 35px;
+       margin-left: 95px;
+       margin-right: 95px;
+       min-height: 1000px; 
+       padding-top: 25px;
+       background-size: contain;}
 
-footer { background-color: #ffffff;
-         margin-left: 190px;
-         margin-right: 190px; 
+footer { background-color: #969696;
+         margin-left: 95px;
+         margin-right: 95px; 
          text-align: center;
-         color: #4775a3;
          padding-top: 10px;
-         padding-bottom: 10px;
-         clear: both; }
+         margin-bottom: 10px;
+         clear: both;
+          }
 
 footer a { color: #801a00; }
 
-footer small { color: #969696; }
+footer small { color: #000000; }
+
+main div { padding-top: 40px;
+           padding-left: 20px;
+           padding-right: 40px;
+           padding-bottom: 30px;}
+
+.regler { text-align: center;
+          }
+
+.head { padding-left: 20px;
+        padding-right: 40px;
+        font-size: 1.3em;
+         border-bottom: solid black 1px;}
+
+main table { padding-top: 50px;
+             margin-left: auto;
+             margin-right: auto;}
+
+main table td { border-bottom: dashed black 1px;
+                font-size: 1.3em;}
+
+
 
