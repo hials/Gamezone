@@ -1,0 +1,80 @@
+[33mcommit a4b6ed597e57352742b4812f4e536653fd6dc2ef[m
+Merge: 3162f4d 460484c
+Author: superUll <oleandreheggdal@Oles-MacBook-Pro.local>
+Date:   Thu Mar 12 13:43:12 2015 +0100
+
+    Merge branch 'master' of https://github.com/hials/Gamezone
+
+[33mcommit 3162f4d6a6a59a76037d598990adf78d0f377a77[m
+Author: superUll <oleandreheggdal@Oles-MacBook-Pro.local>
+Date:   Thu Mar 12 13:42:39 2015 +0100
+
+    Noe feil :-(
+
+[33mcommit 460484c7b99fd48e84a0c7cb5d1794383013bbef[m
+Author: MysticVoice <fredrimv@hotmail.com>
+Date:   Thu Mar 12 13:21:00 2015 +0100
+
+    Opprettet bilder og logo mappe, la også ut logo som psd og png
+
+[33mcommit 227257958b2fc3940aaa3d891cd08d9637676ac7[m
+Merge: 4545b38 4f2faf0
+Author: supervidar <helt007@hotmail.com>
+Date:   Thu Mar 12 11:44:58 2015 +0100
+
+    Merge branch 'master' of https://github.com/hials/Gamezone
+
+[33mcommit 4545b3878155fdc8f734ae04bec003e58aa1a3a2[m
+Author: supervidar <helt007@hotmail.com>
+Date:   Thu Mar 12 11:43:50 2015 +0100
+
+    Endringer i meny. riktige tabs navn
+
+[33mcommit 4f2faf00e9c132f6a7ca01721f79ca345ff8afd8[m
+Author: superUll <oleandreheggdal@158.38.198.113>
+Date:   Thu Mar 12 11:35:22 2015 +0100
+
+    Lagt til test I HEADDER
+
+[33mcommit 33a5eb56f4727746e4782a87b25fde06f184c903[m
+Author: supervidar <helt007@hotmail.com>
+Date:   Thu Mar 12 11:26:16 2015 +0100
+
+    test
+
+[33mcommit be5c01a1ab163393fdb0c158a44524b406c4534a[m
+Author: MysticVoice <fredrimv@hotmail.com>
+Date:   Thu Mar 12 11:20:29 2015 +0100
+
+    Sletter testfil
+
+[33mcommit 85f979e78601d26980a36b21ebf6f328228d72bb[m
+Author: MysticVoice <fredrimv@hotmail.com>
+Date:   Thu Mar 12 11:16:58 2015 +0100
+
+    Laster opp test fil Fredrik
+
+[33mcommit 2088eb085fd38b05a8362597534639961fa78f41[m
+Merge: d509ebf 95bce48
+Author: supervidar <helt007@hotmail.com>
+Date:   Thu Mar 12 10:58:02 2015 +0100
+
+    Merge branch 'master' of https://github.com/hials/Gamezone
+
+[33mcommit d509ebf671ba0861cb1cbc1d176f3c90ae54a498[m
+Author: supervidar <helt007@hotmail.com>
+Date:   Thu Mar 12 10:56:58 2015 +0100
+
+    Mal til sida .jpg
+
+[33mcommit 95bce48d132875b6148b1c4cf2f9daac5cb6f546[m
+Author: superUll <oleandreheggdal@Oles-MacBook-Pro.local>
+Date:   Thu Mar 12 10:53:09 2015 +0100
+
+    Lagt ut template
+
+[33mcommit ba827210cd1fd9bd1b0275c086b6af0df792fc4a[m
+Author: Fredrik Opstad Sætran <fredos1@hotmail.com>
+Date:   Thu Mar 12 10:29:36 2015 +0100
+
+    Initial commit
