@@ -4,31 +4,27 @@ body { background-color: #434343; }
      
 .wrapper { width: 80% ; width: 1200px;
            margin-left: auto;
-           margin-right: auto;
-         }
+           margin-right: auto; }
 
 #container {display: table;
-            background-image: url(bilder/banners/SplatterBGMax.png);
-}
+            background-image: url(bilder/banners/SplatterBGMax.png); }
 
 
 header { background-position-y: -30px;
          //background-color: #434343;
          background-image: url(bilder/logo/gamezoneV2.png);
          background-size: 100% 160%;
-         background-position: 100% 60%; 
+         background-position: 100% 65%; 
          background-repeat: no-repeat;
          height: 220px;
          margin-left: auto;
          margin-right: auto;
          width: 790px;
-         overflow: hidden;}
-
+         overflow: hidden; }
 
 nav { background-color: #434343;
       margin-left: 94px;
-      margin-right: 94px;
-}
+      margin-right: 94px; }
 
 nav ul { width: 100%;
          font-family: Arial, Verdana;
@@ -41,7 +37,7 @@ nav ul li { width: 20%;
             display: inline-block;
             position: relative;
             float: left; 
-            transition: all 0.2s;}
+            transition: all 0.2s; }
 
 nav li ul { display: none; }
 
@@ -52,57 +48,45 @@ nav ul li a { text-align: center;
               color: #919191;
               padding: 5px 15px 5px 15px;
               background: #434343;
-              margin-left: 0;
+              //background: linear-gradient(#b80000, #520000);
+              box-shadow: 5px 5px 2px #520000;
+              margin-left: 35px;
+              margin-right: 35px;
+             // border-bottom-left-radius: 50px;
+              //border-top-right-radius: 50px;
               white-space: nowrap; }
 
-nav ul li a:hover { background: #939393;
-                  
-                    color: #161513; }
+nav ul li a:hover { background: linear-gradient(#520000, #b80000);
+                    color: #919191;
+                    box-shadow: none ; }
 
 nav li:hover ul { display: block;
                   position: absolute; }
 
 nav li:hover li { width: 100%;
                   float: none;
-                  
                   font-size: 11px; }
 
-nav li:hover a { background: #cc3331;
-                
-                 color: #161513; }
+nav li:hover a { background: linear-gradient(#b80000, #520000);
+                 color: #919191; }
 
-nav li:hover li a:hover { background: #939393;
-                           
-                          
-}
+nav li:hover li a:hover { background: linear-gradient(#520000, #b80000); }
 
 
-#left { float: left;
-        //background-image: url(bilder/banners/SplatterLeftNr3Tiny.png); 
-        min-height: 500px;
-        
-        width: 95px;
-        margin-top: -18px;
-        }
+#left { }
         
 
-#right { float: right;
-         //background-image: url(bilder/banners/SplatterRightNr3Tiny.png);
-         background-repeat: repeat;
-         min-height: 500px;
-        
-         width: 95px;
-         }
+#right { }
 
 main { background-image: linear-gradient(#ffffff, #969696);
-       //margin-top: 15px;
+       margin-top: 10px;
        margin-left: 95px;
        margin-right: 95px;
        min-height: 500px;
        width: 1010px;
        padding-top: 25px;
-       color: #4f5b66;
-       background-size: contain;}
+       color: #282e33;
+       background-size: contain; }
 
 footer { background-color: #969696;
          margin-left: 95px;
@@ -110,59 +94,56 @@ footer { background-color: #969696;
          text-align: center;
          padding-top: 10px;
          margin-bottom: 10px;
-         clear: both;
-          }
+         clear: both; }
 
-footer a { color: #cc3331; }
+footer a { color: #b80000; }
 
-footer a:hover{ color: #ff0000;
-    
-} 
+footer a:hover{ color: #520000; } 
 
 
 main div { padding-top: 40px;
            padding-left: 20px;
            padding-right: 40px;
-           padding-bottom: 30px;}
+           padding-bottom: 30px; }
 
-.regler { text-align: center;
-          }
+.head { text-align: center;
+        border-bottom: solid black 1px; }
 
-.head { border-bottom: solid black 1px;}
+.regler { text-align: center;}
+
+.liner { font-size: 1.25em;
+         border-bottom: solid black 1px; }
        
-         
-
-.foot { border-top:  solid black 1px;}
+.foot { border-top:  solid black 1px; }
 
 main table { padding-top: 50px;
              margin-left: auto;
-             margin-right: auto;}
+             margin-right: auto; }
 
 main table td { border-bottom: dashed black 1px;
-                font-size: 1.3em;}
+                font-size: 1.3em; }
+
+::selection{
+    background-color: #a82700;
+    color: #FFFFFF;
+}
 
 
+@media ( max-width: 1200px ) 
+{
+.wrapper    {width:1090px; }
 
-@media (max-width: 1200px ){
-.wrapper    {width:1090px;
-             
-    
-}
-#container {display: table;
-            background-image: url(bilder/banners/SplatterBGMed.png);
-}
-main{width: 900px;}
-}
+#container { display: table;
+            background-image: url(bilder/banners/SplatterBGMed.png); }
+main{width: 900px; } }
 
-@media  (max-width: 1090px ){
-.wrapper    {width:980px;
-           
-    
-}
-#container {display: table;
-            background-image: url(bilder/banners/SplatterBGMin.png);
-}
-main {width: 790px;}
+@media  (max-width: 1090px ) {
+.wrapper {width:980px; }
+
+#container { display: table;
+            background-image: url(bilder/banners/SplatterBGMin.png); }
+
+main { width: 790px; }
 }
 
 iframe { display: block;
