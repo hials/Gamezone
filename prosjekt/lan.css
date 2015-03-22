@@ -47,13 +47,10 @@ nav ul li a { text-align: center;
               text-decoration: none;
               color: #b80000;
               padding: 5px 15px 5px 15px;
-              background: linear-gradient(#5b5b5b, #3d1f00);;
-              //background: linear-gradient(#b80000, #520000);
+              background: linear-gradient(#5b5b5b, #3d1f00);
               box-shadow: 3px 3px 3px #520000;
               margin-left: 35px;
               margin-right: 35px;
-             // border-bottom-left-radius: 50px;
-              //border-top-right-radius: 50px;
               white-space: nowrap; }
 
 nav ul li a:hover { background: linear-gradient(#520000, #b80000);
