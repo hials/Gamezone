@@ -156,9 +156,9 @@ iframe { display: block;
     margin: 5px;
 }
 
-@media (max-width: 768px )
-    
-    html,body{
+@media screen and (max-width:768px)
+{
+body{
     background-image: url("bilder/backgroundMob/backg.jpg") ; 
     background-size: 100%;
     background-repeat: no-repeat;
@@ -166,6 +166,7 @@ iframe { display: block;
     background-position: top;
     background-attachment: fixed;
 }
+
 
 #cornerLogo{
     position: fixed;
@@ -187,4 +188,4 @@ iframe { display: block;
     min-height: 100%;
     height: auto;
 }
-               }
+}
