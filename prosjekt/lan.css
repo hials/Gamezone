@@ -1,6 +1,8 @@
 html { min-height: 100%; }
 
-body { background-color: #434343; }
+body { //background-color: #434343;
+       background:#1F1F1F url(bilder/pattern.png) repeat top left;}
+        
      
 .wrapper { width: 80% ; width: 1200px;
            margin-left: auto;
@@ -54,7 +56,7 @@ nav ul li a { text-align: center;
               white-space: nowrap; }
 
 nav ul li a:hover { background: linear-gradient(#520000, #b80000);
-                    color: #919191;
+                    color: #ffffff;
                     box-shadow: none ; }
 
 nav li:hover ul { display: block;
@@ -79,12 +81,23 @@ main { background-image: linear-gradient(#ffffff, #969696);
        margin-top: 10px;
        margin-left: 95px;
        margin-right: 95px;
-       min-height: 500px;
+       min-height:500px;
        width: 1010px;
        padding-top: 25px;
        padding-bottom: 25px;
        color: #282e33;
        background-size: contain; }
+
+h2 { text-align: center; 
+     padding-top: 40px; }
+
+main p { padding-top: 30px;
+         padding-left: 40px;
+         padding-right: 40px; }
+
+.clock { margin-top: 40px; }
+
+
 
 footer { background-color: #969696;
          margin-left: 95px;
@@ -192,20 +205,6 @@ body{
     height: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #container {display: none;}
 
 
@@ -266,6 +265,20 @@ footer a:hover{ color: #520000; }
 
 main div { display: none; }
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .head { display: none; }
  

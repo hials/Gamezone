@@ -1,0 +1,45 @@
+@import url('reset.css');
+
+
+p.sub{  
+	padding-bottom: 5px;
+        padding-top: 15px;
+	text-align:center;
+	color:#aaa;
+}
+.clr{
+	clear:both;
+}
+
+h1 span{
+	font-size:10px;
+	display:block;
+	letter-spacing:2px;
+	font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+	color:#00c6e3;
+	line-height:14px;
+	padding-top:10px;
+	text-shadow:none;
+	
+}
+/* Header Style */
+/*.header{
+	font-size:13px;
+	//background:#000;
+	opacity:0.9;
+}*/
+
+.content{
+	margin:80px 25px 30px 25px;
+}
+@media screen and (max-width: 640px) {
+	.header a{
+		display:block;
+		text-align:center;
+		font-size:10px;
+		text-shadow:none;
+	}
+	.header span.right_ab{
+		float:none;
+	}
+}
