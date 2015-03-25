@@ -163,6 +163,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100%;
+    width: 100%;
     background-position: top;
     background-attachment: fixed;
 }
@@ -172,7 +173,7 @@ body{
     position: absolute;
     top: 0px;
     left: 0px;
-    background-image: url("bilder/logo/CornerLogo.png");
+    background-image: url("bilder/logo/cornerLogo.png");
     width: 30%;
     height: 100%;
     background-size: 100%;
@@ -283,15 +284,6 @@ main table td { display: none; }
  
 
 ::selection{display: none; }
-
-
-
-
-
-
-
-
-
 
 
 }
