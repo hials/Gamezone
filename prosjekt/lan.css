@@ -156,8 +156,9 @@ iframe { display: block;
     margin: 5px;
 }
 
-@media handheld {
-    body{
+@media (max-width: 768px )
+    
+    html,body{
     background-image: url("bilder/backgroundMob/backg.jpg") ; 
     background-size: 100%;
     background-repeat: no-repeat;
