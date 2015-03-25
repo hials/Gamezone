@@ -82,6 +82,7 @@ main { background-image: linear-gradient(#ffffff, #969696);
        min-height: 500px;
        width: 1010px;
        padding-top: 25px;
+       padding-bottom: 25px;
        color: #282e33;
        background-size: contain; }
 
@@ -132,6 +133,7 @@ main table td { border-bottom: dashed black 1px;
 
 #container { display: table;
             background-image: url(bilder/banners/SplatterBGMed.png); }
+
 main{width: 900px; } }
 
 @media  (max-width: 1090px ) {
