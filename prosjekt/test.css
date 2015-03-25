@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25.march.2015, 12:40:18
+    Author     : Fredrik
+*/
+
+html,body{
+    background-image: url("bilder/backgroundMob/backg.jpg") ; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+#cornerLogo{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url("bilder/logo/CornerLogo.png");
+    width: 30%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#content{
+    background-color: #ffffff;
+    opacity: 0.4;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    min-height: 100%;
+    height: auto;
+}
