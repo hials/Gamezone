@@ -155,3 +155,35 @@ iframe { display: block;
     width: 120px;
     margin: 5px;
 }
+
+@media handheld {
+    body{
+    background-image: url("bilder/backgroundMob/backg.jpg") ; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+#cornerLogo{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url("bilder/logo/CornerLogo.png");
+    width: 30%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    background-color: #ffffff;
+    opacity: 0.4;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    min-height: 100%;
+    height: auto;
+}
+               }
