@@ -164,6 +164,8 @@ body{
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     background-position: top;
     background-attachment: fixed;
 }
