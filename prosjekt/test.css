@@ -11,7 +11,7 @@ and open the template in the editor.
 html,body{
     background-image: url("bilder/backgroundMob/backg.jpg") ; 
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     height: 100%;
     background-position: top;
     background-attachment: fixed;
@@ -28,9 +28,8 @@ html,body{
     background-repeat: no-repeat;
 }
 
-#content{
-    background-color: #ffffff;
-    opacity: 0.4;
+.wrapper{
+    background-color: rgb(255,255,255);
     margin-left: auto;
     margin-right: auto;
     width: 98%;
