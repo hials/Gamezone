@@ -1,0 +1,164 @@
+html { min-height: 100%; }
+
+body { background-color: #434343; }
+     
+.wrapper { width: 80% ; width: 1200px;
+           margin-left: auto;
+           margin-right: auto; }
+
+#container {display: table;
+            background-image: url(bilder/banners/SplatterBGMax.png); }
+
+
+header { background-position-y: -30px;
+         //background-color: #434343;
+         background-image: url(bilder/logo/gamezoneV2.png);
+         background-size: 100% 160%;
+         background-position: 100% 65%; 
+         background-repeat: no-repeat;
+         height: 220px;
+         margin-left: auto;
+         margin-right: auto;
+         width: 790px;
+         overflow: hidden; }
+
+nav { background-color: #434343;
+      margin-left: 94px;
+      margin-right: 94px; }
+
+nav ul { width: 100%;
+         font-family: Arial, Verdana;
+         font-size: 16px;
+         margin: 0;
+         padding: 0;
+         list-style: none; }
+
+nav ul li { width: 20%;
+            display: inline-block;
+            position: relative;
+            float: left; 
+            transition: all 0.2s; }
+
+nav li ul { display: none; }
+
+nav ul li a { text-align: center;
+              font-size: 1.2em;
+              display: block;
+              text-decoration: none;
+              color: #b80000;
+              padding: 5px 15px 5px 15px;
+              background: linear-gradient(#5b5b5b, #3d1f00);
+              box-shadow: 3px 3px 3px #520000;
+              margin-left: 35px;
+              margin-right: 35px;
+              white-space: nowrap; }
+
+nav ul li a:hover { background: linear-gradient(#520000, #b80000);
+                    color: #919191;
+                    box-shadow: none ; }
+
+nav li:hover ul { display: block;
+                  position: absolute; }
+
+nav li:hover li { width: 100%;
+                  float: none;
+                  font-size: 11px; }
+
+nav li:hover a { background: linear-gradient(#b80000, #520000);
+                 color: #919191; }
+
+nav li:hover li a:hover { background: linear-gradient(#520000, #b80000); }
+
+
+#left { }
+        
+
+#right { }
+
+main { background-image: linear-gradient(#ffffff, #969696);
+       margin-top: 10px;
+       margin-left: 95px;
+       margin-right: 95px;
+       min-height: 500px;
+       width: 1010px;
+       padding-top: 25px;
+       padding-bottom: 25px;
+       color: #282e33;
+       background-size: contain; }
+
+footer { background-color: #969696;
+         margin-left: 95px;
+         margin-right: 95px; 
+         text-align: center;
+         padding-top: 10px;
+         margin-bottom: 10px;
+         clear: both; }
+
+footer a { color: #b80000; }
+
+footer a:hover{ color: #520000; } 
+
+
+main div { padding-top: 40px;
+           padding-left: 20px;
+           padding-right: 40px;
+           padding-bottom: 30px; }
+
+.head { text-align: center;
+        border-bottom: solid black 1px; }
+
+.regler { text-align: center;}
+
+.liner { font-size: 1.25em;
+         border-bottom: solid black 1px; }
+       
+.foot { border-top:  solid black 1px; }
+
+main table { padding-top: 50px;
+             margin-left: auto;
+             margin-right: auto; }
+
+main table td { border-bottom: dashed black 1px;
+                font-size: 1.3em; }
+
+::selection{
+    background-color: #a82700;
+    color: #FFFFFF;
+}
+
+
+@media ( max-width: 1200px ) and  (min-width: ) 
+{
+.wrapper    {width:1090px; }
+
+#container { display: table;
+            background-image: url(bilder/banners/SplatterBGMed.png); }
+
+main{width: 900px; } }
+
+@media  (max-width: 1090px ) {
+.wrapper {width:980px; }
+
+#container { display: table;
+            background-image: url(bilder/banners/SplatterBGMin.png); }
+
+main { width: 790px; }
+}
+
+iframe { display: block;
+         margin-left: auto;
+         margin-right: auto; }
+
+.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
