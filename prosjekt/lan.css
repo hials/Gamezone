@@ -53,6 +53,7 @@ nav ul li a { text-align: center;
               box-shadow: 3px 3px 3px #520000;
               margin-left: 35px;
               margin-right: 35px;
+              border-radius: 7px;
               white-space: nowrap; }
 
 nav ul li a:hover { background: linear-gradient(#520000, #b80000);
@@ -86,7 +87,9 @@ main { background-image: linear-gradient(#ffffff, #969696);
        padding-top: 25px;
        padding-bottom: 25px;
        color: #282e33;
-       background-size: contain; }
+       background-size: contain; 
+       border-top-left-radius: 7px;
+       border-top-right-radius: 7px; }
 
 h2 { text-align: center; 
      padding-top: 40px; }
@@ -105,6 +108,8 @@ footer { background-color: #969696;
          text-align: center;
          padding-top: 10px;
          margin-bottom: 10px;
+         border-bottom-left-radius: 7px;
+         border-bottom-right-radius: 7px;
          clear: both; }
 
 footer a { color: #b80000; }
